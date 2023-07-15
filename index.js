@@ -36,9 +36,6 @@ async function fecthApi(word) {
         console.log(error)
         infoEl.innerText = "An Error occured, try again later"
     }
-
-
-
 }
 
 searchEl.addEventListener("click", function () {
